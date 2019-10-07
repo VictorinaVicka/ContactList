@@ -18,14 +18,14 @@ class ContactListViewController: UITableViewController {
                           "Petrov",
                           "Sidorov",
                           "Vorobev"]
-    var listOfEmail = ["Email: ttt@om.ru",
-                       "Email: aan@na.ru",
-                       "Email: oool@ga.ru",
-                       "Email: iiiig@or.ru"]
-    var listOfPhoneNamber = ["Phone: 111-111",
-                             "Phone: 222-222",
-                             "Phone: 333-333",
-                             "Phone: 444-444"]
+    var listOfEmail = ["ttt@om.ru",
+                       "aan@na.ru",
+                       "oool@ga.ru",
+                       "iiiig@or.ru"]
+    var listOfPhoneNamber = ["111-111",
+                             "222-222",
+                             "333-333",
+                             "444-444"]
               
     var namesAndSurnames: [Person] = []
               
@@ -53,11 +53,9 @@ class ContactListViewController: UITableViewController {
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContactList", for: indexPath)
-        
         let namesAndSurnames: Person = self.namesAndSurnames[indexPath.row]
         
-        cell.textLabel?.text = namesAndSurnames.name
-        cell.detailTextLabel?.text = namesAndSurnames.surname
+        cell.textLabel?.text = namesAndSurnames.name + " " + namesAndSurnames.surname
 
         return cell
     }

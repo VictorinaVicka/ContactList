@@ -22,11 +22,11 @@ class DetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        emailLabel.text = email
-        phoneLabel.text = phoneNamber
+        emailLabel.text = "Email:" + " " + email
+        phoneLabel.text = "Phone:" + " " + phoneNamber
         
         if person != nil {
-            self.contactLabel.text = person.name
+            self.contactLabel.text = person.name + " " + person.surname
       }
    }
 }
