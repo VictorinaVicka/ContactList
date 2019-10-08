@@ -30,3 +30,5 @@ class DetailsViewController: UIViewController {
       }
    }
 }
+
+//Значения уникальными сделать не получилось(
