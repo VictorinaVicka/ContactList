@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE97B32E234DEC4E009C7025 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97B32D234DEC4E009C7025 /* Person.swift */; };
+		BE97B330234DED71009C7025 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97B32F234DED70009C7025 /* DataManager.swift */; };
 		BEA52A4423474DB000429EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA52A4323474DB000429EF9 /* AppDelegate.swift */; };
 		BEA52A4623474DB000429EF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA52A4523474DB000429EF9 /* SceneDelegate.swift */; };
 		BEA52A4B23474DB000429EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA52A4923474DB000429EF9 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE97B32D234DEC4E009C7025 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BE97B32F234DED70009C7025 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		BEA52A4023474DB000429EF9 /* TableViewH.W.2.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewH.W.2.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA52A4323474DB000429EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA52A4523474DB000429EF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				BEA52A4523474DB000429EF9 /* SceneDelegate.swift */,
 				BEA52A5723474FDB00429EF9 /* ContactListViewController.swift */,
 				BEA52A59234B368400429EF9 /* DetailsViewController.swift */,
+				BE97B32F234DED70009C7025 /* DataManager.swift */,
+				BE97B32D234DEC4E009C7025 /* Person.swift */,
 				BEA52A4923474DB000429EF9 /* Main.storyboard */,
 				BEA52A4C23474DB100429EF9 /* Assets.xcassets */,
 				BEA52A4E23474DB100429EF9 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE97B32E234DEC4E009C7025 /* Person.swift in Sources */,
+				BE97B330234DED71009C7025 /* DataManager.swift in Sources */,
 				BEA52A4423474DB000429EF9 /* AppDelegate.swift in Sources */,
 				BEA52A4623474DB000429EF9 /* SceneDelegate.swift in Sources */,
 				BEA52A5823474FDB00429EF9 /* ContactListViewController.swift in Sources */,

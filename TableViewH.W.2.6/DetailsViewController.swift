@@ -13,22 +13,18 @@ class DetailsViewController: UIViewController {
     @IBOutlet var emailLabel: UILabel!
     @IBOutlet var phoneLabel: UILabel!
     
-//    var contactName: String!
-    var email: String!
-    var phoneNamber: String!
-    
     var person: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        emailLabel.text = "Email:" + " " + email
-        phoneLabel.text = "Phone:" + " " + phoneNamber
-        
+        emailLabel.text = "Email: \(person.email)"
+        phoneLabel.text = "Phone: \(person.phoneNumber)"
+      
         if person != nil {
-            self.contactLabel.text = person.name + " " + person.surname
+            contactLabel.text = person.fullName
       }
    }
 }
 
-//Значения уникальными сделать не получилось(
+
